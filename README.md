@@ -278,5 +278,5 @@ If you type anything the bot does not recognize:
 - **Program:** DecodeLabs Industrial Training
 - **Batch:** 2026
 - **Project:** Project 1 — Rule-Based AI Chatbot
-- **Contact:** decodelabs.tech@gmail.com
-- **Website:** www.decodelabs.tech
+- **Contact:** huraira3076@gmail.com
+- **Website:** https://devhuraira.vercel.app/
