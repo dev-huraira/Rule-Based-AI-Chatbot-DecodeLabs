@@ -1,3 +1,61 @@
+# 🤖 DecoBot — Rule-Based AI Chatbot
+
+## DecodeLabs Industrial Training | Batch 2026 | Project 1
+
+---
+
+## 📌 About
+
+DecoBot is a Rule-Based AI Chatbot built with Python and Flask.
+Built strictly following the DecodeLabs Project 1 PDF 
+specifications. It runs on pure deterministic logic — no machine 
+learning, no hallucinations, 100% hard-coded rules.
+
+---
+
+## 🏗️ Architecture
+
+- **Model:** Rule-Based (Deterministic)
+- **Lookup:** Dictionary O(1) — No if-elif ladder
+- **Structure:** IPO Model (Input → Process → Output)
+- **Traceability:** White Box — every input traces to a clear output
+- **Safety:** Zero hallucination risk — 100% hard-coded
+- **Loop:** Infinite while loop with clean exit strategy
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** Python 3, Flask
+- **Frontend:** HTML, CSS, Vanilla JavaScript
+- **Architecture:** Rule-Based (Deterministic)
+- **Logging:** Auto-saves chat to chat_log.txt
+
+---
+
+## 📁 Project Structure
+decobot-project1/
+├── decobot_project1.py   ← Core chatbot logic
+├── app.py                ← Flask web server
+├── requirements.txt      ← Dependencies
+├── .gitignore            ← Git ignore rules
+├── README.md             ← This file
+└── templates/
+└── index.html        ← Web UI
+
+---
+
+## ⚙️ How to Run
+
+**Step 1 — Install dependencies:**
+pip install flask
+
+**Step 2 — Run the server:**
+python app.py
+
+**Step 3 — Open in browser:**
+http://localhost:5000
+
 ---
 
 ## 💬 All Available Commands
@@ -198,6 +256,20 @@ If you type anything the bot does not recognize:
 
 ---
 
+## 📄 PDF Concepts Implemented
+
+| PDF Page | Concept | Implemented |
+|---|---|---|
+| Page 7 | White Box — Traceability & Safety | ✅ |
+| Page 9 | IPO Model — Input, Process, Output | ✅ |
+| Page 10 | Input Sanitization .lower().strip() | ✅ |
+| Page 11 | Infinite Loop + Kill Command | ✅ |
+| Page 12 | No if-elif ladder Anti-Pattern | ✅ |
+| Page 13 | Hash Maps and Dictionaries | ✅ |
+| Page 14 | Algorithmic Efficiency O(1) | ✅ |
+| Page 15 | .get() Method with Fallback | ✅ |
+| Page 17 | Logic Skeleton — 5 Checklist Items | ✅ |
+| Page 18 | Hybrid Architecture Router | ✅ |
 
 ---
 
